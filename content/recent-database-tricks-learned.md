@@ -10,60 +10,17 @@ add an Unique Id Column (Primary Key). Not willing to do the whole
 import job again, I searched for a solution online to add an Id column
 to an existing table without any hassle, and found one:
 
- 
-
-> <div id=":qg">
->
-> <div id=":qf">
->
-> <div dir="ltr">
->
-> <div>
->
-> ALTER TABLE \`tablename\` ADD COLUMN \`id\` INT AUTO\_INCREMENT UNIQUE
-> FIRST;
->
-> </div>
->
-> <div>
->
-> </div>
->
-> </div>
->
-> </div>
->
-> </div>
-
-<div id=":qg">
-
-<div id=":qf">
-
-<div dir="ltr">
-
-<div>
+```sql
+ALTER TABLE \`tablename\` ADD COLUMN \`id\` INT AUTO\_INCREMENT UNIQUE FIRST;
+```
 
 Another trick was the CSV import itself. Pretty much all data can be
 inserted into MySQL by using an CSV export, in my case, from an ESRI
 Shapefile.
 
-</div>
-
-<div>
-
 The 0th row of the CSV file can even contain column names, which will
 then be added to the newly created MySQL table in the database if you
 like so!
-
-</div>
-
-</div>
-
-<div>
-
-</div>
-
-<div>
 
 Yet another helpful thing I found out is that while MySQL doesn't
 support Materialized Views, there is an solution available for a kind of
@@ -72,25 +29,10 @@ to a regular view (as the data is static in the mat.view). The creation
 of the 'Materialized View for MySQL' here will take some time, just like
 updating, but querying it is blazingly fast:
 
-</div>
-
-</div>
-
-<div>
-
-</div>
-
-> <div>
->
-> DROP TABLE IF EXISTS \`myDatabase\`.\`myMaterializedView\`;  
->  CREATE TABLE \`myDatabase\`.\`myMaterializedView\` SELECT \* from
-> \`myDatabase\`.\`myRegularView\`;
->
->  
->
-> </div>
-
-<div>
+```sql
+DROP TABLE IF EXISTS `myDatabase`.`myMaterializedView`;  
+CREATE TABLE `myDatabase`.`myMaterializedView` SELECT * from `myDatabase`.`myRegularView`;
+```
 
 When I managed to join the 2 tables needed in a view, and then in a
 Materialized View, I found out that the Materialized View contained all
@@ -103,35 +45,13 @@ the data to CSV (or even JSON, which I need to try myself yet!):
 > If your database is simple and you only have individual tables that
 > you want to import (meaning: there are no JOINs between the tables)
 > you can very simply export your data form MySQL to a CSV file and then
-> import that CSV file with [mongoimport][] to MongoDB.
-
- 
+> import that CSV file with [mongoimport](http://docs.mongodb.org/manual/reference/program/mongoimport/) to MongoDB.
 
 If we do however have relations, I have found [an excellent blogpost
-here][] on how to proceed.
-
-</div>
-
-<div>
-
-</div>
-
-<div>
+here](http://tamas.io/converting-your-data-from-mysql-to-mongodb/) on how to proceed.
 
 I have worked with MongoDb in the past, so I know most of it and it's
 terms already. However, new users might be confused. That's why I'm also
-linking [an SQL to MongoDB Mapping Chart here][] for your convenience.
+linking [an SQL to MongoDB Mapping Chart here](http://docs.mongodb.org/manual/reference/sql-comparison/) for your convenience.
+
 Happy devving!
-
-</div>
-
-<div>
-
-</div>
-
-</div>
-
-  [mongoimport]: http://docs.mongodb.org/manual/reference/program/mongoimport/
-    "mongoimport"
-  [an excellent blogpost here]: http://tamas.io/converting-your-data-from-mysql-to-mongodb/
-  [an SQL to MongoDB Mapping Chart here]: http://docs.mongodb.org/manual/reference/sql-comparison/
