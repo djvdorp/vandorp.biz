@@ -24,43 +24,49 @@ just bugged!
 
 As Server C was only used to pass data through, I used a simple
 dedicated server box with (pretty much) unmetered traffic from
-[Kimsufi/OVH][].
+[Kimsufi/OVH](http://www.isgenoeg.nl).
 
-The solution I used is based on [this][] StackOverflow post. I have used
+The solution I used is based on [this](http://superuser.com/questions/170758/how-to-ssh-to-an-unreachable-remote-machine-by-tunneling-through-a-server-that-e) StackOverflow post. I have used
 it for SSH access, SCP transfers and Rsync synchronization.
 
->  
->
-> Only one ssh tunnel is needed from Server A (to Server C).
->
-> First make sure Server C is properly configured for this:  
->  Edit Server C's */etc/ssh/sshd\_config*:
->
-> **AllowTcpForwarding yes**  
->  **GatewayPorts yes**
->
-> After that, do an restart of the ssh/sshd service.
->
-> From Server A:
->
-> *ssh -N -R 0.0.0.0:8022:localhost:22 serverCUser@serverC*
->
-> Now you can just connect from Server B onto Server A with:
->
-> *ssh -p 8022 serverAUser@serverC*
->
-> Additionally you may want to define some stuff in *\~/.ssh/config*:
->
-> **Host gate.serverA**  
->  **HostName serverC**  
->  **Port 8022**  
->  **HostKeyAlias serverA**
->
-> This allows you to do the more coherent:  
->  *ssh serverAUser@gate.serverA*  
->  and at the same time not be bothered with server fingerprint
-> mismatches.
+  
 
-  [Kimsufi/OVH]: http://www.isgenoeg.nl "Kimsufi/OVH"
-  [this]: http://superuser.com/questions/170758/how-to-ssh-to-an-unreachable-remote-machine-by-tunneling-through-a-server-that-e
-    "this"
+Ony one ssh tunnel is needed from Server A (to Server C).
+
+First make sure Server C is properly configured for this:  
+Edit Server C's _/etc/ssh/sshd_config_:
+
+```
+AllowTcpForwarding yes
+GatewayPorts yes
+```
+
+After that, do a restart of the ssh/sshd service.
+
+From Server A:
+
+```bash
+ssh -N -R 0.0.0.0:8022:localhost:22 serverCUser@serverC
+```
+
+Now you can just connect from Server B onto Server A with:
+
+```bash
+ssh -p 8022 serverAUser@serverC
+```
+
+Additionally you may want to define some stuff in _~/.ssh/config_:
+
+```
+Host gate.serverA
+HostName serverC
+Port 8022
+HostKeyAlias serverA
+```
+
+This allows you to do the more coherent:
+```bash
+ssh serverAUser@gate.serverA
+```
+and at the same time not be bothered with server fingerprint
+mismatches.
