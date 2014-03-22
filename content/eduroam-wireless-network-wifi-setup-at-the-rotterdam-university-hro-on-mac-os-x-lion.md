@@ -12,18 +12,12 @@ these instructions:
 
  
 
-1.  Save [this][] file by clicking Download and rename it to
-    **wpa2.hro.mobileconfig** (.mobileconfig is the extension)
+1.  Save [this]({filename}/files/wpa2.hro.mobileconfig) file to your computer
 2.  Open the file by double-clicking it, and it will ask for your HRO
     username (0000000@student.hro.nl) and password (xxxxx).
 3.  Enter your system password when asked.
 4.  Connect to the Eduroam Wifi network.
 5.  You're done!
 
-<div>
-
 PS: This is exactly the same way to connect to Eduroam on the iPhone
 
-</div>
-
-  [this]: http://pastie.org/private/d2xsowwkb8a1uksen2esa

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>EAPClientConfiguration</key>
+<dict>
+<key>AcceptEAPTypes</key>
+<array>
+<integer>21</integer>
+</array>
+<key>EAPFASTProvisionPAC</key>
+<false/>
+<key>EAPFASTProvisionPACAnonymously</key>
+<false/>
+<key>EAPFASTUsePAC</key>
+<false/>
+<key>TLSAllowTrustExceptions</key>
+<true/>
+<key>TTLSInnerAuthentication</key>
+<string>PAP</string>
+</dict>
+<key>EncryptionType</key>
+<string>WPA</string>
+<key>HIDDEN_NETWORK</key>
+<false/>
+<key>PayloadDescription</key>
+<string>Instellingen voor draadloze verbindingen configureren.</string>
+<key>PayloadDisplayName</key>
+<string>Wi-Fi (eduroam)</string>
+<key>PayloadIdentifier</key>
+<string>hro.nl.</string>
+<key>PayloadOrganization</key>
+<string>Hogeschool Rotterdam </string>
+<key>PayloadType</key>
+<string>com.apple.wifi.managed</string>
+<key>PayloadUUID</key>
+<string>BB489C7E-9FE1-415A-972E-714A476F81AD</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>SSID_STR</key>
+<string>eduroam</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>WPA2 by Nomi</string>
+<key>PayloadDisplayName</key>
+<string>eduroam</string>
+<key>PayloadIdentifier</key>
+<string>hro.nl</string>
+<key>PayloadOrganization</key>
+<string>Hogeschool Rotterdam </string>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>CBAE8301-683F-413E-9BF4-3373D3497B54</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
