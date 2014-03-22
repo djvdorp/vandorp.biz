@@ -31,7 +31,10 @@ EXTRA_PATH_METADATA = {
 LINKS = None
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),)
+SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),
+          ('linkedin', 'https://www.linkedin.com/in/danielvandorp'),
+          ('github', 'http://github.com/djvdorp'),
+          ('facebook', 'http://facebook.com/djvdorp'),)
 
 DEFAULT_PAGINATION = 5
 
