@@ -53,6 +53,8 @@ OPEN_GRAPH_IMAGE = 'images/dandydev.png'
 
 CC_LICENSE = "CC-BY-NC-SA"
 
+PYGMENTS_STYLE = 'monokai'
+
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')
 
 # DISQUS_SITENAME = 'dandydev-dev'

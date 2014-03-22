@@ -7,13 +7,15 @@ Slug: how-to-auto-generate-doctrine-db-migrations
 Because I always seem to forget this (for Symfony 1.4 btw).  
 (this assumes you have a running system with an existing database)
 
-first, edit schema.yml
+* First, edit `schema.yml`
 
-then run this from the command line:  
+* Then run this from the command line:
+```bash
 symfony doctrine:generate-migrations-diff
+```
+* Then run:
+```bash
+symfony doctrine:build --all-classes
+```
 
-then run symfony doctrine:build --all-classes
-
- 
-
-a migration will be generated in /lib/migration/doctrine
+A migration will be generated in `/lib/migration/doctrine`
