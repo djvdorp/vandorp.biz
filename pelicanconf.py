@@ -60,6 +60,8 @@ PLUGIN_PATH = os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')
 DISQUS_SITENAME = 'vandorpit-dev'
 ADDTHIS_PROFILE = 'ra-532db7234d3d5a6e'
 
+DISQUS_DISPLAY_COUNTS = True
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
