@@ -59,7 +59,7 @@ PLUGIN_PATH = os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')
 # ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
