@@ -51,8 +51,8 @@ THEME = os.path.join(os.environ.get('HOME'), 'Projects/pelican-bootstrap3')
 BOOTSTRAP_THEME = 'superhero'
 
 USE_OPEN_GRAPH = False
-OPEN_GRAPH_FB_APP_ID = '20201859318270x'
-OPEN_GRAPH_IMAGE = 'images/dandydev.png'
+OPEN_GRAPH_FB_APP_ID = '1399075273698546'
+OPEN_GRAPH_IMAGE = 'images/vandorpit.jpg'
 
 CC_LICENSE = "CC-BY-NC-SA"
 
