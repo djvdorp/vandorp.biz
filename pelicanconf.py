@@ -57,8 +57,8 @@ PYGMENTS_STYLE = 'monokai'
 
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')
 
-# DISQUS_SITENAME = 'dandydev-dev'
-# ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
+DISQUS_SITENAME = 'vandorpit-dev'
+ADDTHIS_PROFILE = 'ra-532db7234d3d5a6e'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

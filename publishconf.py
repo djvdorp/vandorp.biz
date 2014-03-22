@@ -20,8 +20,8 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-# DISQUS_SITENAME = 'dandydev'
-# GOOGLE_ANALYTICS = 'UA-24099413-2'
-# ADDTHIS_PROFILE = 'ra-4f274b9c7023574d'
+DISQUS_SITENAME = 'vandorpit'
+GOOGLE_ANALYTICS = 'UA-24228873-1'
+ADDTHIS_PROFILE = 'ra-4d779d493e48b954'
 
 RELATIVE_URLS = False
