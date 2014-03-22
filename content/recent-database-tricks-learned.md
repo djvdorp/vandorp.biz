@@ -11,7 +11,7 @@ import job again, I searched for a solution online to add an Id column
 to an existing table without any hassle, and found one:
 
 ```sql
-ALTER TABLE \`tablename\` ADD COLUMN \`id\` INT AUTO\_INCREMENT UNIQUE FIRST;
+ALTER TABLE `tablename` ADD COLUMN `id` INT AUTO_INCREMENT UNIQUE FIRST;
 ```
 
 Another trick was the CSV import itself. Pretty much all data can be
