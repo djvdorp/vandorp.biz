@@ -28,7 +28,9 @@ EXTRA_PATH_METADATA = {
 }
 
 # Blogroll
-LINKS = None
+LINKS = (('Samantha de Blij', 'http://samanthadeblij.nl'),
+         ('DandyDev', 'http://dandydev.net'),
+         ('All Things Pretty', 'http://allthingspretty.nl'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),

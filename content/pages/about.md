@@ -9,8 +9,8 @@ Daniel van Dorp
 
 Bachelor Informatica (Hogeschool Rotterdam)
 
-Software Engineer (Java) bij Info Support
+Software Engineer (Java) bij Info Support, momenteel werkzaam bij de Nederlandse Spoorwegen
 
 Geboren en opgegroeid in Dordrecht
 
-Woonachtig in Pijnacker
+Woonachtig in Pijnacker met mijn lieve vriendin [Samantha de Blij](http://samanthadeblij.nl)
