@@ -9,3 +9,4 @@ output
 .idea/*
 *.env
 *.pid
+cache/

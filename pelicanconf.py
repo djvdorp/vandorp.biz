@@ -30,7 +30,8 @@ EXTRA_PATH_METADATA = {
 # Blogroll
 LINKS = (('Samantha de Blij', 'http://samanthadeblij.nl'),
          ('DandyDev', 'http://dandydev.net'),
-         ('All Things Pretty', 'http://allthingspretty.nl'))
+         ('All Things Pretty', 'http://allthingspretty.nl'),
+         ('Nadine Herbert', 'http://nadineherbert.nl/'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),
@@ -60,7 +61,7 @@ CC_LICENSE = "CC-BY-NC-SA"
 
 PYGMENTS_STYLE = 'monokai'
 
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')
+PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')]
 
 DISQUS_SITENAME = 'vandorpit-dev'
 ADDTHIS_PROFILE = 'ra-532db7234d3d5a6e'
