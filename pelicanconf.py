@@ -31,7 +31,8 @@ EXTRA_PATH_METADATA = {
 LINKS = (('Samantha de Blij', 'http://samanthadeblij.nl'),
          ('DandyDev', 'http://dandydev.net'),
          ('All Things Pretty', 'http://allthingspretty.nl'),
-         ('Nadine Herbert', 'http://nadineherbert.nl/'))
+         ('Nadine Herbert', 'http://nadineherbert.nl/'),
+         ('VirtKick.io', 'https://www.virtkick.io/'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),
