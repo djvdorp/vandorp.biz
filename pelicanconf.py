@@ -32,7 +32,9 @@ LINKS = (('Samantha de Blij', 'http://samanthadeblij.nl'),
          ('DandyDev', 'http://dandydev.net'),
          ('All Things Pretty', 'http://allthingspretty.nl'),
          ('Nadine Herbert', 'http://nadineherbert.nl/'),
-         ('VirtKick.io', 'https://www.virtkick.io/'))
+         ('VirtKick.io', 'https://www.virtkick.io/'),
+         ('SamMobile', 'http://www.sammobile.com/'),
+         ('GearFaces', 'http://www.gearfaces.com/'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),
