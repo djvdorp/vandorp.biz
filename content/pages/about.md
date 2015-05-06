@@ -1,5 +1,5 @@
 Title: Over mij
-Date: 2015-01-01 21:20
+Date: 2015-05-06 20:00
 Author: Daniel
 Slug: about
 
@@ -9,7 +9,7 @@ Daniel van Dorp
 
 Bachelor Informatica (Hogeschool Rotterdam)
 
-Software Engineer (Java) bij Info Support, momenteel werkzaam bij de Nederlandse Spoorwegen
+DevOps Engineer bij Mendix
 
 Geboren en opgegroeid in Dordrecht
 

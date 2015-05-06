@@ -28,19 +28,21 @@ EXTRA_PATH_METADATA = {
 }
 
 # Blogroll
-LINKS = (('Samantha de Blij', 'http://samanthadeblij.nl'),
+LINKS = (('SamMobile', 'http://www.sammobile.com/'),
+         ('GearFaces', 'http://www.gearfaces.com/'),
+         ('Samantha de Blij', 'http://samanthadeblij.nl'),
          ('DandyDev', 'http://dandydev.net'),
          ('All Things Pretty', 'http://allthingspretty.nl'),
          ('Nadine Herbert', 'http://nadineherbert.nl/'),
-         ('VirtKick.io', 'https://www.virtkick.io/'),
-         ('SamMobile', 'http://www.sammobile.com/'),
-         ('GearFaces', 'http://www.gearfaces.com/'))
+         ('VirtKick.io', 'https://www.virtkick.com/people.html'),
+)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/djvdorp'),
           ('linkedin', 'https://www.linkedin.com/in/danielvandorp'),
           ('github', 'http://github.com/djvdorp'),
-          ('facebook', 'http://facebook.com/djvdorp'),)
+          ('facebook', 'http://facebook.com/djvdorp'),
+)
 
 DEFAULT_PAGINATION = 5
 
