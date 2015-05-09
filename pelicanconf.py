@@ -28,13 +28,13 @@ EXTRA_PATH_METADATA = {
 }
 
 # Blogroll
-LINKS = (('SamMobile', 'http://www.sammobile.com/'),
-         ('GearFaces', 'http://www.gearfaces.com/'),
-         ('Samantha de Blij', 'http://samanthadeblij.nl'),
-         ('DandyDev', 'http://dandydev.net'),
-         ('All Things Pretty', 'http://allthingspretty.nl'),
-         ('Nadine Herbert', 'http://nadineherbert.nl/'),
-         ('VirtKick.io', 'https://www.virtkick.com/people.html'),
+LINKS = (('SamMobile', 'http://www.sammobile.com/contact/'),
+         ('VirtKick', 'https://www.virtkick.com/people.html'),
+         ('LowEndTalk', 'http://lowendtalk.com/profile/571/djvdorp'),
+         ('Samantha de Blij', 'http://www.samanthadeblij.nl'),
+         ('DandyDev', 'http://www.dandydev.net'),
+         ('All Things Pretty', 'http://www.allthingspretty.nl'),
+         ('Nadine Herbert', 'http://www.nadineherbert.nl/'),
 )
 
 # Social widget
