@@ -24,8 +24,8 @@ VLAN Settings: none (no VLAN ID needed)
 DSL ATM Settings:
   VPI: 8
   VCI: 35
-  Encapsulation: Bridged (Routed Bridge Encapsulation)
-    Obtain the IP address automatically (DHCP)
+  Encapsulation: Bridged (Routed Bridge Encapsulation): selected
+    Obtain the IP address automatically (DHCP): checked
     DHCP host name: (blank)
 
 DNS (v4) servers:
