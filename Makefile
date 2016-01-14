@@ -12,7 +12,7 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=vandorp.biz
+SSH_HOST=prometeus.vandorp.biz
 SSH_PORT=2222
 SSH_USER=daniel
 SSH_TARGET_DIR=/home/daniel/domains/vandorp.biz/public_html/

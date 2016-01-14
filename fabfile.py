@@ -7,7 +7,7 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'daniel@vandorp.biz:2222'
+production = 'daniel@prometeus.vandorp.biz:2222'
 dest_path = '/home/daniel/domains/vandorp.biz/public_html/'
 
 # Rackspace Cloud Files configuration settings
