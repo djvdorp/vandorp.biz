@@ -1,11 +1,11 @@
 Title: Over mij
-Date: 2016-04-30 16:00
+Date: 2016-11-02 07:00
 Author: Daniel
 Slug: about
 
 Daniel van Dorp
 
-25 jaar oud
+26 jaar oud
 
 Bachelor Informatica (Hogeschool Rotterdam)
 
