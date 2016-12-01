@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = '//www.vandorp.biz'
+SITEURL = 'https://www.vandorp.biz'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
