@@ -1,9 +1,9 @@
-Title: Diensten
-Date: 2011-02-10 09:27
+Title: Services
+Date: 2016-12-01 19:00
 Author: Daniel
 Slug: services
 
-**1 februari 2013:  
-Wegens het succesvol afronden van mijn studie en het tekenen van een
-contract voor 40 uur neem ik geen werk meer aan.  
-Excuses voor het ongemak.**
+**February 1st, 2013:
+Due to the successful completion of my studies and signing a full-time contract,
+I am currently not looking for new projects to work on.
+Sorry for the inconvenience.**

@@ -1,16 +1,16 @@
-Title: Over mij
-Date: 2016-11-02 07:00
+Title: About
+Date: 2016-12-01 19:00
 Author: Daniel
 Slug: about
 
 Daniel van Dorp
 
-26 jaar oud
+26 years old
 
-Bachelor Informatica (Hogeschool Rotterdam)
+Bachelor of Computer Science (Rotterdam University of Applied Science)
 
-Cloud System Engineer bij Mendix
+Cloud System Engineer at Mendix in Rotterdam
 
-Geboren en opgegroeid in Dordrecht
+Born and raised in Dordrecht
 
-Woonachtig in Pijnacker met mijn lieve vriendin [Samantha de Blij](http://samanthadeblij.nl)
+Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](http://samanthadeblij.nl)
