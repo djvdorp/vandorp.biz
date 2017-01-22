@@ -31,10 +31,13 @@ EXTRA_PATH_METADATA = {
 LINKS = (('SamMobile', 'http://www.sammobile.com/contact/'),
          ('VirtKick', 'https://www.virtkick.com/people.html'),
          ('LowEndTalk', 'http://lowendtalk.com/profile/571/djvdorp'),
+         ('Linux Audit', 'https://linux-audit.com'),
+         ('Debian Handbook', 'https://debian-handbook.info'),
+         ('cron.weekly', 'https://www.cronweekly.com'),
          ('Samantha de Blij', 'http://www.samanthadeblij.nl'),
          ('DandyDev', 'http://www.dandydev.net'),
          ('All Things Pretty', 'http://www.allthingspretty.nl'),
-         ('Nadine Herbert', 'http://www.nadineherbert.nl/'),
+         ('Nadine Herbert', 'http://www.nadineherbert.nl'),
 )
 
 # Social widget

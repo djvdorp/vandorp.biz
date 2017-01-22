@@ -13,4 +13,4 @@ Cloud System Engineer at Mendix in Rotterdam
 
 Born and raised in Dordrecht
 
-Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](http://samanthadeblij.nl)
+Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](http://www.samanthadeblij.nl)
