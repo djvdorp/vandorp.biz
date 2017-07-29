@@ -8,14 +8,14 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=localhost
-FTP_USER=anonymous
-FTP_TARGET_DIR=/
+FTP_HOST=neostrada.vandorp.biz
+FTP_USER=vandor1b
+FTP_TARGET_DIR=/public_html/
 
-SSH_HOST=prometeus.vandorp.biz
-SSH_PORT=2222
+SSH_HOST=localhost
+SSH_PORT=22
 SSH_USER=daniel
-SSH_TARGET_DIR=/home/daniel/domains/vandorp.biz/public_html/
+SSH_TARGET_DIR=/
 
 S3_BUCKET=my_s3_bucket
 
