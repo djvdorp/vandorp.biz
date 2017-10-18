@@ -1,8 +1,8 @@
-Title: Running VirtualBox in Headless Mode with VNC
+Title: Running VirtualBox in Headless Mode with RDP
 Date: 2017-02-02 18:30
 Author: Daniel
 Tags: linux
-Slug: running-virtualbox-in-headless-mode-with-vnc
+Slug: running-virtualbox-in-headless-mode-with-rdp
 
 A [quite annoying bug](https://bugreports.qt.io/browse/QTBUG-57608) while using the VirtualBox 5.1.x release, apparently [caused by Qt5](https://github.com/i3/i3/issues/2497), has forced people that use [Tiling Window Managers](https://en.wikipedia.org/wiki/Tiling_window_manager) [like me](http://i3wm.org/) to look at alternative ways to keep on using VirtualBox until a fix has been released. Luckily, VirtualBox has a [quite excellent Headless Mode](https://www.virtualbox.org/manual/ch07.html) that not a lot of people know about. It is also pretty trivial to start using it:
 
