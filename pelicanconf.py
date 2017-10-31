@@ -57,7 +57,7 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
 
-THEME = os.path.join(os.environ.get('HOME'), 'Projects/pelican-bootstrap3')
+THEME = os.path.join(os.environ.get('HOME'), 'dev/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'superhero'
 
@@ -69,7 +69,7 @@ CC_LICENSE = "CC-BY-NC-SA"
 
 PYGMENTS_STYLE = 'monokai'
 
-PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'), 'Projects/pelican-plugins')]
+PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'), 'dev/pelican-plugins')]
 
 DISQUS_SITENAME = 'vandorpit-dev'
 ADDTHIS_PROFILE = 'ra-532db7234d3d5a6e'
