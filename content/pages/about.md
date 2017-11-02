@@ -5,7 +5,7 @@ Slug: about
 
 Daniel van Dorp
 
-26 years old
+27 years old
 
 Bachelor of Computer Science (Rotterdam University of Applied Science)
 
