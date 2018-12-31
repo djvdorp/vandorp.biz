@@ -18,7 +18,7 @@ Linux
 ------
 
 1. [Debian](https://www.debian.org/), or if you really need to, [Ubuntu](https://www.ubuntu.com/)
-2. [Arch Linux](https://www.archlinux.org/), or if you are too lazy to do the manual setup, try [Antergos](https://antergos.com/), [Manjaro](https://manjaro.org/) or [Apricity](https://apricityos.com/)
+2. [Arch Linux](https://www.archlinux.org/), or if you are too lazy to do the manual setup, try [Manjaro](https://manjaro.org/), [Antergos](https://antergos.com/) or [Apricity](https://apricityos.com/)
 3. [NixOS](https://nixos.org/)
 
 Books
