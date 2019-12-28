@@ -9,8 +9,8 @@ Daniel van Dorp
 
 Bachelor of Computer Science (Rotterdam University of Applied Science)
 
-Cloud System Engineer at Mendix in Rotterdam
+Cloud Software Engineer at Mendix in Rotterdam
 
 Born and raised in Dordrecht
 
-Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](http://www.samanthadeblij.nl)
+Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](https://www.samanthadeblij.nl)
