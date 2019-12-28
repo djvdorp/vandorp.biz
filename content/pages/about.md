@@ -5,11 +5,11 @@ Slug: about
 
 Daniel van Dorp
 
-28 years old
+29 years old
 
 Bachelor of Computer Science (Rotterdam University of Applied Science)
 
-Cloud Software Engineer at Mendix in Rotterdam
+Cloud Software Engineer
 
 Born and raised in Dordrecht
 

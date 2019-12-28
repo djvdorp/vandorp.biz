@@ -28,7 +28,7 @@ EXTRA_PATH_METADATA = {
 }
 
 # Blogroll
-LINKS = (('SamMobile', 'http://www.sammobile.com/contact/'),
+LINKS = (('SamMobile', 'https://www.sammobile.com/team/'),
          ('VirtKick', 'https://www.virtkick.com/people.html'),
          ('LowEndTalk', 'http://lowendtalk.com/profile/571/djvdorp'),
          ('Linux Audit', 'https://linux-audit.com'),
