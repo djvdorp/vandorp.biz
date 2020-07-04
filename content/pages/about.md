@@ -1,5 +1,5 @@
 Title: About
-Date: 2016-12-01 19:00
+Date: 2020-07-04 16:00
 Author: Daniel
 Slug: about
 
@@ -13,4 +13,4 @@ Cloud Software Engineer
 
 Born and raised in Dordrecht
 
-Currently living in Pijnacker with my beautiful girlfriend [Samantha de Blij](https://www.samanthadeblij.nl)
+Currently living in Pijnacker with my beautiful wife [Samantha de Blij](https://www.samanthadeblij.nl)
