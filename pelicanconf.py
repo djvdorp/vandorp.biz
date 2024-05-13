@@ -57,7 +57,7 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
 
-THEME = os.path.join(os.environ.get('HOME'), 'dev/pelican-bootstrap3')
+THEME = os.path.join(os.getcwd(), './pelican-themes/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'superhero'
 
