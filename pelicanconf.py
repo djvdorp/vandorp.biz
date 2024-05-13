@@ -69,7 +69,11 @@ CC_LICENSE = "CC-BY-NC-SA"
 
 PYGMENTS_STYLE = 'monokai'
 
-PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'), 'dev/pelican-plugins')]
+PLUGIN_PATHS = [os.path.join(os.getcwd(), './pelican-plugins')]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 DISQUS_SITENAME = 'vandorpit-dev'
 ADDTHIS_PROFILE = 'ra-532db7234d3d5a6e'
