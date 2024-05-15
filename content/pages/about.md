@@ -1,5 +1,5 @@
 Title: About
-Date: 2020-07-04 16:00
+Date: 2024-05-15 19:40
 Author: Daniel
 Slug: about
 
@@ -7,7 +7,7 @@ Daniel van Dorp
 
 Bachelor of Computer Science (Rotterdam University of Applied Science)
 
-Cloud Software Engineer
+Senior Cloud Software Engineer & CTO
 
 Born and raised in Dordrecht
 
